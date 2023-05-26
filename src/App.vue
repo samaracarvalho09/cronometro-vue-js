@@ -22,7 +22,6 @@
 
 <script>
 import { PhPlayPause, PhArrowUUpLeft, PhPlayCircle } from '@phosphor-icons/vue'
-
 export default {
   components: {
     PhPlayPause,
@@ -76,12 +75,6 @@ export default {
 }
 </script>
 
-
-
-
-
-
-
 <style scoped>
 * {
   margin: 0px;
@@ -91,6 +84,7 @@ export default {
 
 .container {
   width: 100vw;
+
   background: linear-gradient(180deg, #e4b0c2 0%, #a8003b 100%);
 
   display: flex;
