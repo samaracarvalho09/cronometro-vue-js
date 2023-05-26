@@ -43,7 +43,6 @@ export default {
       const horas = Math.floor(this.time / 3600);
       const minutos = Math.floor((this.time % 3600) / 60);
       const segundos = this.time % 60;
-      // const milissegundos = this.time % 1000;
       return `${this.formatarNumero(horas)}:${this.formatarNumero(minutos)}:${this.formatarNumero(segundos)}`;
 
     }
@@ -92,7 +91,6 @@ export default {
 
 .container {
   width: 100vw;
-  //height: 100vh;
   background: linear-gradient(180deg, #e4b0c2 0%, #a8003b 100%);
 
   display: flex;
