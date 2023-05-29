@@ -12,11 +12,3 @@ export default defineConfig({
     }
   }
 })
-
-module.exports = {
-  build: {
-    rollupOptions: {
-      external: ['@phosphor-icons/vue']
-    }
-  }
-}
