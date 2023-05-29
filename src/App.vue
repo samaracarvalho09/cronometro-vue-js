@@ -92,7 +92,6 @@ export default {
 
 .container {
   width: 100vw;
-  //height: 100vh;
   background: linear-gradient(180deg, #e4b0c2 0%, #a8003b 100%);
 
   display: flex;
